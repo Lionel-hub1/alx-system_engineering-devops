@@ -1,13 +1,9 @@
 #!/usr/bin/env bash
-# Write a Bash script that displays numbers from 1 to 100.
-
-# Requirements:
-
-# Displays FizzBuzz when the number is a multiple of 3 and 5
-# Displays Fizz when the number is multiple of 3
-# Displays Buzz when the number is a multiple of 5
-# Otherwise, displays the number
-# In a list format
+# This is a script that prints numbers from 1 to 100 and:
+# - the multiples of 3 and 5 print FizzBuzz
+# - the multiples of 3 print Fizz
+# - the multiples of 5 print Buzz
+# - otherwise print the number
 
 for ((i=1; i<=100; i++))
 do
