@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# This is a script that checks if a file exists and: if it exists, if it is empty, and if it is a regular file (print custom messages)
+# This is a script that checks if a file exists and: if it exists, if it is empty, and if it is a regular file (print custom messages for each case)
 
 if [ -e /tmp/school ]
 then
