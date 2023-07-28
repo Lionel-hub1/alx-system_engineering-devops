@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# This is a script that kills the process 7-highlander (or 7-highlander:), which is a process that never dies.
+
+kill -SIGKILL "$(pgrep -f 7-highlander)"
