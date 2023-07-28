@@ -1,0 +1,1 @@
+This directory contain codes for <b>0x05. Processes and signals</b> project.
