@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# This is a script that displays "To infinity and beyond" indefinitely and traps SIGTERM (15) to display "I am invincible!!!" before exiting
+
+trap "echo 'I am invincible!!!'" SIGTERM
+while true
+do
+    echo "To infinity and beyond"
+    sleep 2
+done
