@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # This script displays the IPv4 addresses of the listening ports of a server.
 
-ifconfig | grep 'inet ' | awk '{print $2}'
+ip -4 a | grep inet | awk '{print $2}' | cut -d '/' -f 1
