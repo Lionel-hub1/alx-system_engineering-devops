@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# This script displays listening ports
+
+netstat -an | grep -v "127.0.0.1"
