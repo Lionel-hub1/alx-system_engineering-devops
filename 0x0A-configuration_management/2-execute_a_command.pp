@@ -2,7 +2,6 @@
 
 file { '/tmp/killmenow':
   ensure  => file,
-  content => "This file ensures the killmenow process can be terminated.",
 }
 
 exec { 'killmenow':
