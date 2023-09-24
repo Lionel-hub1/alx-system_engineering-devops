@@ -1,4 +1,4 @@
-# This file 
+# This file is a copy of the public key of my personal server, which I have configured to accept my public key as authentication.
 
 ssh ubuntu@18.207.235.58 -i ~/.ssh/school
 mkdir -p ~/.ssh && touch ~/.ssh/authorized_keys
