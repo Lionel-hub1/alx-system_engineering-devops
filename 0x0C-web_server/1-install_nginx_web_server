@@ -1,2 +1,12 @@
 #!/usr/bin/env bash
-# Install nginx web server
+# This script configures a new Ubuntu machine with nginx
+
+# Install nginx if not already installed
+if ! which nginx > /dev/null 2>&1; then
+    sudo apt-get -y update
+    sudo apt-get -y install nginx
+fi
+
+ufw allow 'Nginx HTTP'
+echo "Hello World!" | sudo tee /var/www/html/index.html > /dev/null
+sudo service nginx start
