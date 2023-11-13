@@ -1,5 +1,0 @@
-#!/usr/bin/env bash
-# This script creates an html file with text "Hello Holberton"
-
-echo 'Hello Holberton' > /var/www/html/index.html
-sudo service apache2 start

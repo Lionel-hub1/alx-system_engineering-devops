@@ -1,1 +1,0 @@
-This directory contain the codes for the configuration management project.
