@@ -2,5 +2,5 @@
 
 package { 'flask':
   ensure   => 'installed',
-  provider => 'pip3',
+  provider => 'gem',
 }
