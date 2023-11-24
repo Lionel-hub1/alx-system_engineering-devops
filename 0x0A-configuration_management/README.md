@@ -4,30 +4,18 @@ This project focuses on configuration management using Puppet. It includes three
 
 ## Task 0: Create a file
 
-In this task, we use Puppet to create a file in the /tmp directory with specific requirements. The file should have the following properties:
+In this task, we use Puppet to create a file in the /tmp directory with specific requirements.
 
-- File path: /tmp/school
-- File permission: 0744
-- File owner: www-data
-- File group: www-data
-- File content: "I love Puppet"
-
-To see the Puppet code for this task, please refer to the [Task 0 Puppet Manifest](/path/to/task0_manifest.pp) file.
+To see the Puppet code for this task, please refer to the [Task 0 Puppet Manifest](https://github.com/Lionel-hub1/alx-system_engineering-devops/blob/master/0x0A-configuration_management/0-create_a_file.pp) file.
 
 ## Task 1: Install a package
 
-In this task, we use Puppet to install the Flask package from pip3. The requirements for this task are as follows:
+In this task, we use Puppet to install the Flask package from pip3. The package should be installed globally.
 
-- Install Flask
-- Version must be 2.1.0
-
-To see the Puppet code for this task, please refer to the [Task 1 Puppet Manifest](/path/to/task1_manifest.pp) file.
+To see the Puppet code for this task, please refer to the [Task 1 Puppet Manifest](https://github.com/Lionel-hub1/alx-system_engineering-devops/blob/master/0x0A-configuration_management/1-install_a_package.pp) file.
 
 ## Task 2: Execute a command 
 
-In this task, we use Puppet to create a manifest that kills a process named "killmenow". The requirements for this task are as follows:
+In this task, we use Puppet to create a manifest that kills a process named "killmenow". 
 
-- Must use the exec Puppet resource
-- Must use pkill
-
-To see the Puppet code for this task, please refer to the [Task 2 Puppet Manifest](/path/to/task2_manifest.pp) file.
+To see the Puppet code for this task, please refer to the [Task 2 Puppet Manifest](https://github.com/Lionel-hub1/alx-system_engineering-devops/blob/master/0x0A-configuration_management/2-execute_a_command.pp) file.
