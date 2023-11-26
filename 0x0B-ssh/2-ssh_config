@@ -1,0 +1,7 @@
+// BEGIN: SSH client configuration
+Host *
+    HostName 3.85.168.143
+    User ubuntu
+    IdentityFile ~/.ssh/school
+    PasswordAuthentication no
+// END: SSH client configuration
