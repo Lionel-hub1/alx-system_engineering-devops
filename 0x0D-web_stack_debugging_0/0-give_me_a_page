@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
-# This script will start Apache2
+# This script installs Apache and sets up a simple webpage
 
+echo 'Hello Holberton' > /var/www/html/index.html
 service apache2 start
